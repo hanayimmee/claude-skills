@@ -441,7 +441,7 @@
       "name": "api-design-reviewer",
       "source": "../../engineering/skills/api-design-reviewer",
       "category": "engineering-advanced",
-      "description": "API Design Reviewer"
+      "description": "Comprehensive REST API design review with automated linting, breaking-change detection, and design scorecards. Catches inconsistent conventions, missing versioning, and design smells before APIs ship. Use when reviewing a PR that adds or changes API endpoints, auditing an existing API for v2 migration, or establishing API standards for a team."
     },
     {
       "name": "api-test-suite-builder",
@@ -459,7 +459,7 @@
       "name": "changelog-generator",
       "source": "../../engineering/skills/changelog-generator",
       "category": "engineering-advanced",
-      "description": "Changelog Generator"
+      "description": "Produce consistent, auditable release notes from Conventional Commits. Separates commit parsing, semantic-bump logic, and changelog rendering for automated releases with editorial control. Use when cutting a release, generating CHANGELOG.md from git history, or automating release notes in CI."
     },
     {
       "name": "chaos-engineering",
@@ -471,13 +471,13 @@
       "name": "ci-cd-pipeline-builder",
       "source": "../../engineering/skills/ci-cd-pipeline-builder",
       "category": "engineering-advanced",
-      "description": "CI/CD Pipeline Builder"
+      "description": "Generate pragmatic CI/CD pipelines from detected project stack signals \u2014 fast baseline generation, repeatable checks, environment-aware deployment stages. Use when setting up CI for a new project, refactoring existing pipelines, or standardizing deployment workflows across multiple repos."
     },
     {
       "name": "codebase-onboarding",
       "source": "../../engineering/skills/codebase-onboarding",
       "category": "engineering-advanced",
-      "description": "Codebase Onboarding"
+      "description": "Analyze a codebase and generate onboarding documentation for engineers, tech leads, and contractors. Fast fact-gathering and repeatable onboarding outputs. Use when onboarding a new engineer, writing architecture-overview docs for a new project, or producing tech-lead briefings for unfamiliar repos."
     },
     {
       "name": "command-guide",
@@ -501,7 +501,7 @@
       "name": "dependency-auditor",
       "source": "../../engineering/skills/dependency-auditor",
       "category": "engineering-advanced",
-      "description": "Dependency Auditor"
+      "description": "Audit and manage dependencies across multi-language projects. Identifies vulnerabilities, license conflicts, transitive dependency risks, and safe-upgrade paths. Use when auditing third-party packages before release, investigating a CVE, planning a major version bump, or running a license-compliance review."
     },
     {
       "name": "engineering-advanced-skills",
@@ -555,13 +555,13 @@
       "name": "mcp-server-builder",
       "source": "../../engineering/skills/mcp-server-builder",
       "category": "engineering-advanced",
-      "description": "MCP Server Builder"
+      "description": "Design and ship production-ready MCP (Model Context Protocol) servers from OpenAPI contracts instead of hand-written tool wrappers. Python and TypeScript support, schema validation, safe evolution. Use when exposing an existing API as an MCP server, building tool integrations for Claude or Codex or Cursor, or scaffolding an MCP project from scratch."
     },
     {
       "name": "migration-architect",
       "source": "../../engineering/skills/migration-architect",
       "category": "engineering-advanced",
-      "description": "Migration Architect"
+      "description": "Zero-downtime migration planning, compatibility validation, and rollback strategy generation. Tools for system, database, and infrastructure migrations with minimal business impact. Use when planning a database migration, infrastructure cutover, system replacement, or any high-risk transition that needs explicit rollback paths."
     },
     {
       "name": "monorepo-navigator",
@@ -573,13 +573,13 @@
       "name": "observability-designer",
       "source": "../../engineering/skills/observability-designer",
       "category": "engineering-advanced",
-      "description": "Observability Designer (POWERFUL)"
+      "description": "Design production-ready observability strategies combining metrics, logs, and traces. Includes SLI/SLO design, golden-signals monitoring, alert optimization. Use when adding observability to a new service, refactoring alerting that is too noisy, or designing an SLO program before scaling production load."
     },
     {
       "name": "performance-profiler",
       "source": "../../engineering/skills/performance-profiler",
       "category": "engineering-advanced",
-      "description": "Performance Profiler"
+      "description": "Systematic performance profiling for Node.js, Python, and Go applications. Identifies CPU, memory, and I/O bottlenecks, generates flamegraphs, analyzes bundle sizes, optimizes database queries, runs load tests with k6 and Artillery. Always measures before and after. Use when investigating a slow endpoint, planning a performance budget, or hunting a memory leak in production."
     },
     {
       "name": "pr-review-expert",
@@ -603,7 +603,7 @@
       "name": "runbook-generator",
       "source": "../../engineering/skills/runbook-generator",
       "category": "engineering-advanced",
-      "description": "Runbook Generator"
+      "description": "Generate operational runbooks from a service name \u2014 deployment, incident response, maintenance, and rollback workflows. Templated structure customizable per environment. Use when documenting on-call procedures for a new service, standardizing incident response across teams, or producing runbooks before launching to production."
     },
     {
       "name": "secrets-vault-manager",
