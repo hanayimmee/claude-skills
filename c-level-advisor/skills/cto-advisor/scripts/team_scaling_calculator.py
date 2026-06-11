@@ -5,6 +5,7 @@ Engineering Team Scaling Calculator - Optimize team growth and structure
 
 import json
 import math
+import sys
 from typing import Dict, List, Tuple
 
 class TeamScalingCalculator:
@@ -535,7 +536,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.sample and args.input_file:
-        import sys
         print("Warning: --sample specified; ignoring input_file", file=sys.stderr)
 
     if args.input_file and not args.sample:

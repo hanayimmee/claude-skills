@@ -651,6 +651,8 @@ Exit codes:
     # --- Load input ---
     try:
         if args.sample:
+            if args.input:
+                print("Warning: --sample specified; ignoring --input", file=sys.stderr)
             raw_event = SAMPLE_EVENT
         elif args.input:
             with open(args.input, "r", encoding="utf-8") as fh:
