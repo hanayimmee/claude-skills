@@ -576,7 +576,8 @@ def main():
     elif args.sample:
         data = sample_data()
     else:
-        print("No input file provided — running with sample data.\n")
+        # Notice goes to stderr so `--json` output stays parseable when piped.
+        print("No input file provided — running with sample data.\n", file=sys.stderr)
         data = sample_data()
 
     result = run(data)

@@ -534,6 +534,10 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
+    if args.sample and args.input_file:
+        import sys
+        print("Warning: --sample specified; ignoring input_file", file=sys.stderr)
+
     if args.input_file and not args.sample:
         with open(args.input_file) as f:
             data = json.load(f)
